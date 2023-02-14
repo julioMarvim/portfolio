@@ -44,6 +44,7 @@ body{
 
 .apresentacao {
     padding: 5% 15%;
+    gap: 82px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,4 +108,10 @@ body{
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media(max-width: 1250px){
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
 }
